@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style2.css">
+    <title>SHAOPLANE</title>
+</head>
+<body>
+    <!-- topbar-start!-->
+<div id="top-bar">
+<!-- LOGO -->
+<div class="logo">
+    <a href="./index.html"><h4><span>SHOP</span>LANE</h4></a>
+</div>
+<!-- menu items -->
+<ul class="nav-link">
+<li><a href="/index.html">HOME</a></li>
+<li><a href="/index.html#clothing-heading">CLOTHING</a></li>
+<li><a href="/index.html#Accessories-heading">ACCESSORIES</a></li>
+
+</ul>
+<div class="icon">
+    <i class="fa fa-search"></i>
+    <div class="cart" id="cartIcon">
+        <i class="fa fa-shopping-cart" id="checkout-item">
+            <span id="cart-count">0</span>
+          </i>
+    </div>
+    <i class="fa fa-user-circle-o"></i>
+    <div class="burger" onclick="onClickMenu()">
+        <div class="line" id="bar1"></div>
+        <div class="line" id="bar2"></div>
+        <div class="line" id="bar3"></div>
+    </div>
+</div>
+</div> 
+
+  <section id="product" >
+    <div id = "left-column" class="left-column">
+        
+    </div>
+    <div id= "right-column" class="right-column" >
+
+    </div>
+    <button class="Btn" id="cart-btn" onclick="addToCart('${productData.name}','${productData.price}')">Add to cart</button>
+  </div>
+
+</section>
+<footer>
+  <ul class="onilne-store">
+      <li><h3>ONLINE STORE</h3></li>
+      <li><a href="#">MEN CLOTHING</a></li>
+      <li><a href="#">WOMEN CLOTHING</a></li>
+      <li><a href="#">MEN ACCESSORIES</a></li>
+      <li><a href="#">WOMEN ACCESSORIES</a></li>
+  </ul>
+  <ul class="help-link">
+      <li><h3>HELPFULL LINK</h3></li>
+      <li><a href="/index.html">HOME</a></li>
+      <li><a href="/index.html">ABOUT</a></li>
+      <li><a href="/index.html">CONTACT</a></li>
+  </ul>
+  <ul class="partner">
+      <li><h3>PARTNERS</h3></li>
+      <li><a href="#">ZARA</a></li>
+      <li><a href="#">PANTALOONS</a></li>
+      <li><a href="#">LEVIS</a></li>
+      <li><a href="#">UCB</a></li>
+      <li><a href="#">+ MANY MORE</a></li>
+  </ul>
+  <ul class="address">
+      <li><h3>ADDRESS</h3></li>
+      <li><a href="#">BUILDING 101</a></li>
+      <li><a href="#">CENTRAL AVENUE</a></li>
+      <li><a href="#">LA - 902722</a></li>
+      <li><a href="#">UNITED STATES</a></li>
+  </ul>
+</footer>
+
+
+
+
+<script src="/java2.js"></script>
+
+</body>
+</html>
